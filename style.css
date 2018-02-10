@@ -1,10 +1,26 @@
 #container {
 	display: grid;
-	padding: 100px;
-	height: auto;
+	grid-gap: 5px;
+	padding: 50px;
+	position: fixed;
+	top: 60px;
+	height: 800px;
+	width: 800px;
 
+}
+#container div {
+	height: 1fr;
+	width: 1fr;
 }
 div {
 	border: solid;
-	height: 50px;
 }
+.input {
+	height: 40px;
+	position: fixed;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #acff33;
+
+} 
