@@ -1,6 +1,6 @@
 #container {
 	display: grid;
-	grid-gap: 5px;
+	grid-gap: 0px;
 	padding: 50px;
 	position: fixed;
 	top: 60px;
@@ -11,16 +11,19 @@
 #container div {
 	height: 1fr;
 	width: 1fr;
+	border: 1px solid #D3D3D3;
 }
-div {
-	border: solid;
+h3 {
+	margin:1px;
+	font-family: Roboto;
 }
 .input {
-	height: 40px;
+	height: auto;
 	position: fixed;
 	width: 100%;
 	margin: 0px;
-	padding: 0px;
+	padding: 5px;
 	background-color: #acff33;
+	border-radius: 5px;
 
 } 
